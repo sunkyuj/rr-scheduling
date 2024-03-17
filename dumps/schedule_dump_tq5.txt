@@ -1,0 +1,681 @@
+Initial state: (Work0, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+<<<Time slice!  0 sec >>>
+[Time: start of 0 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	Ready Queue: (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 0 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 1 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 1 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 7, I/O Burst: 0, I/O Starts in: 83185118 sec)
+	Ready Queue: (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 2 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 7, I/O Burst: 0, I/O Starts in: 83185118 sec)
+	Ready Queue: (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 2 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 6, I/O Burst: 0, I/O Starts in: 83185117 sec)
+	Ready Queue: (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 3 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 6, I/O Burst: 0, I/O Starts in: 83185117 sec)
+	Ready Queue: (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 3 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185116 sec)
+	Ready Queue: (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 4 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185116 sec)
+	Ready Queue: (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 4 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	Ready Queue: (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+<<<Time slice!  5 sec >>>
+[Time: start of 5 sec]
+	CPU Allocated Process: (Work1, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	Ready Queue: (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 5 sec]
+(Work1, CPU Burst: 0, I/O Burst: 0, I/O Starts in: 83185120 sec) - finished
+	CPU Allocated Process: No process running
+	Ready Queue: (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+<<<Time slice!  6 sec >>>
+[Time: start of 6 sec]
+	CPU Allocated Process: (Work2, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	Ready Queue: (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 6 sec]
+	CPU Allocated Process: (Work2, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 7 sec]
+	CPU Allocated Process: (Work2, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 7 sec]
+(Work2, CPU Burst: 0, I/O Burst: 0, I/O Starts in: 83185120 sec) - finished
+	CPU Allocated Process: No process running
+	Ready Queue: (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+<<<Time slice!  8 sec >>>
+[Time: start of 8 sec]
+	CPU Allocated Process: (Work3, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	Ready Queue: (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 8 sec]
+	CPU Allocated Process: (Work3, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 9 sec]
+	CPU Allocated Process: (Work3, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 9 sec]
+(Work3, CPU Burst: 0, I/O Burst: 0, I/O Starts in: 83185120 sec) - finished
+	CPU Allocated Process: No process running
+	Ready Queue: (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+<<<Time slice!  10 sec >>>
+[Time: start of 10 sec]
+	CPU Allocated Process: (Work4, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	Ready Queue: (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 10 sec]
+	CPU Allocated Process: (Work4, CPU Burst: 3, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 11 sec]
+	CPU Allocated Process: (Work4, CPU Burst: 3, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 11 sec]
+	CPU Allocated Process: (Work4, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185118 sec)
+	Ready Queue: (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 12 sec]
+	CPU Allocated Process: (Work4, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185118 sec)
+	Ready Queue: (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 12 sec]
+	CPU Allocated Process: (Work4, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185117 sec)
+	Ready Queue: (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 13 sec]
+	CPU Allocated Process: (Work4, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185117 sec)
+	Ready Queue: (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 13 sec]
+(Work4, CPU Burst: 0, I/O Burst: 0, I/O Starts in: 83185120 sec) - finished
+	CPU Allocated Process: No process running
+	Ready Queue: (Work5, CPU Burst: 10, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+
+<<<Time slice!  14 sec >>>
+[Time: start of 14 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 10, I/O Burst: 6, I/O Starts in: 1 sec)
+	Ready Queue: (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 14 sec]
+(Work5, CPU Burst: 9, I/O Burst: 6) - I/O started
+	CPU Allocated Process: No process running
+	Ready Queue: (Work6, CPU Burst: 9, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 6)
+	I/O Queue: 
+
+<<<Time slice!  15 sec >>>
+[Time: start of 15 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 9, I/O Burst: 2, I/O Starts in: 3 sec)
+	Ready Queue: (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 6)
+	I/O Queue: 
+[Time: end of 15 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 8, I/O Burst: 2, I/O Starts in: 2 sec)
+	Ready Queue: (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 5)
+	I/O Queue: 
+
+[Time: start of 16 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 8, I/O Burst: 2, I/O Starts in: 2 sec)
+	Ready Queue: (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 5)
+	I/O Queue: 
+[Time: end of 16 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 7, I/O Burst: 2, I/O Starts in: 1 sec)
+	Ready Queue: (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 4)
+	I/O Queue: 
+
+[Time: start of 17 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 7, I/O Burst: 2, I/O Starts in: 1 sec)
+	Ready Queue: (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 4)
+	I/O Queue: 
+[Time: end of 17 sec]
+(Work6, CPU Burst: 6, I/O Burst: 2) - I/O started, but different I/O is running already. Enqueue to ioQueue.
+	CPU Allocated Process: No process running
+	Ready Queue: (Work7, CPU Burst: 8, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 3)
+	I/O Queue: (Work6, CPU Burst: 6, I/O Burst: 2)
+
+<<<Time slice!  18 sec >>>
+[Time: start of 18 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 8, I/O Burst: 9, I/O Starts in: 4 sec)
+	Ready Queue: (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 3)
+	I/O Queue: (Work6, CPU Burst: 6, I/O Burst: 2)
+[Time: end of 18 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 7, I/O Burst: 9, I/O Starts in: 3 sec)
+	Ready Queue: (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 2)
+	I/O Queue: (Work6, CPU Burst: 6, I/O Burst: 2)
+
+[Time: start of 19 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 7, I/O Burst: 9, I/O Starts in: 3 sec)
+	Ready Queue: (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 2)
+	I/O Queue: (Work6, CPU Burst: 6, I/O Burst: 2)
+[Time: end of 19 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 6, I/O Burst: 9, I/O Starts in: 2 sec)
+	Ready Queue: (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 1)
+	I/O Queue: (Work6, CPU Burst: 6, I/O Burst: 2)
+
+[Time: start of 20 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 6, I/O Burst: 9, I/O Starts in: 2 sec)
+	Ready Queue: (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	I/O Running: (Work5, CPU Burst: 9, I/O Burst: 1)
+	I/O Queue: (Work6, CPU Burst: 6, I/O Burst: 2)
+[Time: end of 20 sec]
+(Work5, CPU Burst: 9, I/O Burst: 0) - I/O finished, returned to ready queue
+	CPU Allocated Process: (Work7, CPU Burst: 5, I/O Burst: 9, I/O Starts in: 1 sec)
+	Ready Queue: (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0)
+	I/O Running: (Work6, CPU Burst: 6, I/O Burst: 2)
+	I/O Queue: 
+
+[Time: start of 21 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 5, I/O Burst: 9, I/O Starts in: 1 sec)
+	Ready Queue: (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0)
+	I/O Running: (Work6, CPU Burst: 6, I/O Burst: 2)
+	I/O Queue: 
+[Time: end of 21 sec]
+(Work7, CPU Burst: 4, I/O Burst: 9) - I/O started, but different I/O is running already. Enqueue to ioQueue.
+	CPU Allocated Process: No process running
+	Ready Queue: (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0)
+	I/O Running: (Work6, CPU Burst: 6, I/O Burst: 1)
+	I/O Queue: (Work7, CPU Burst: 4, I/O Burst: 9)
+
+<<<Time slice!  22 sec >>>
+[Time: start of 22 sec]
+	CPU Allocated Process: (Work8, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	Ready Queue: (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0)
+	I/O Running: (Work6, CPU Burst: 6, I/O Burst: 1)
+	I/O Queue: (Work7, CPU Burst: 4, I/O Burst: 9)
+[Time: end of 22 sec]
+(Work6, CPU Burst: 6, I/O Burst: 0) - I/O finished, returned to ready queue
+	CPU Allocated Process: (Work8, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 9)
+	I/O Queue: 
+
+[Time: start of 23 sec]
+	CPU Allocated Process: (Work8, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 9)
+	I/O Queue: 
+[Time: end of 23 sec]
+	CPU Allocated Process: (Work8, CPU Burst: 3, I/O Burst: 0, I/O Starts in: 83185118 sec)
+	Ready Queue: (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 8)
+	I/O Queue: 
+
+[Time: start of 24 sec]
+	CPU Allocated Process: (Work8, CPU Burst: 3, I/O Burst: 0, I/O Starts in: 83185118 sec)
+	Ready Queue: (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 8)
+	I/O Queue: 
+[Time: end of 24 sec]
+	CPU Allocated Process: (Work8, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185117 sec)
+	Ready Queue: (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 7)
+	I/O Queue: 
+
+[Time: start of 25 sec]
+	CPU Allocated Process: (Work8, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185117 sec)
+	Ready Queue: (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 7)
+	I/O Queue: 
+[Time: end of 25 sec]
+	CPU Allocated Process: (Work8, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185116 sec)
+	Ready Queue: (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 6)
+	I/O Queue: 
+
+[Time: start of 26 sec]
+	CPU Allocated Process: (Work8, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185116 sec)
+	Ready Queue: (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 6)
+	I/O Queue: 
+[Time: end of 26 sec]
+(Work8, CPU Burst: 0, I/O Burst: 0, I/O Starts in: 83185120 sec) - finished
+	CPU Allocated Process: No process running
+	Ready Queue: (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec), (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 5)
+	I/O Queue: 
+
+<<<Time slice!  27 sec >>>
+[Time: start of 27 sec]
+	CPU Allocated Process: (Work9, CPU Burst: 5, I/O Burst: 0, I/O Starts in: 83185120 sec)
+	Ready Queue: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 5)
+	I/O Queue: 
+[Time: end of 27 sec]
+	CPU Allocated Process: (Work9, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 4)
+	I/O Queue: 
+
+[Time: start of 28 sec]
+	CPU Allocated Process: (Work9, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185119 sec)
+	Ready Queue: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 4)
+	I/O Queue: 
+[Time: end of 28 sec]
+	CPU Allocated Process: (Work9, CPU Burst: 3, I/O Burst: 0, I/O Starts in: 83185118 sec)
+	Ready Queue: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 3)
+	I/O Queue: 
+
+[Time: start of 29 sec]
+	CPU Allocated Process: (Work9, CPU Burst: 3, I/O Burst: 0, I/O Starts in: 83185118 sec)
+	Ready Queue: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 3)
+	I/O Queue: 
+[Time: end of 29 sec]
+	CPU Allocated Process: (Work9, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185117 sec)
+	Ready Queue: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 2)
+	I/O Queue: 
+
+[Time: start of 30 sec]
+	CPU Allocated Process: (Work9, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185117 sec)
+	Ready Queue: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 2)
+	I/O Queue: 
+[Time: end of 30 sec]
+	CPU Allocated Process: (Work9, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185116 sec)
+	Ready Queue: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 1)
+	I/O Queue: 
+
+[Time: start of 31 sec]
+	CPU Allocated Process: (Work9, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185116 sec)
+	Ready Queue: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work7, CPU Burst: 4, I/O Burst: 1)
+	I/O Queue: 
+[Time: end of 31 sec]
+(Work9, CPU Burst: 0, I/O Burst: 0, I/O Starts in: 83185120 sec) - finished
+(Work7, CPU Burst: 4, I/O Burst: 0) - I/O finished, returned to ready queue
+	CPU Allocated Process: No process running
+	Ready Queue: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec), (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+
+<<<Time slice!  32 sec >>>
+[Time: start of 32 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 4, I/O Burst: 0, I/O Starts in: 83185115 sec)
+	Ready Queue: (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 32 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 3, I/O Burst: 0, I/O Starts in: 83185114 sec)
+	Ready Queue: (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 33 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 3, I/O Burst: 0, I/O Starts in: 83185114 sec)
+	Ready Queue: (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 33 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185113 sec)
+	Ready Queue: (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 34 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 2, I/O Burst: 0, I/O Starts in: 83185113 sec)
+	Ready Queue: (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 34 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185112 sec)
+	Ready Queue: (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 35 sec]
+	CPU Allocated Process: (Work0, CPU Burst: 1, I/O Burst: 0, I/O Starts in: 83185112 sec)
+	Ready Queue: (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 35 sec]
+(Work0, CPU Burst: 0, I/O Burst: 0, I/O Starts in: 83185115 sec) - finished
+	CPU Allocated Process: No process running
+	Ready Queue: (Work5, CPU Burst: 9, I/O Burst: 0), (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+
+<<<Time slice!  36 sec >>>
+[Time: start of 36 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 9, I/O Burst: 6, I/O Starts in: 3 sec)
+	Ready Queue: (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 36 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 8, I/O Burst: 6, I/O Starts in: 2 sec)
+	Ready Queue: (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 37 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 8, I/O Burst: 6, I/O Starts in: 2 sec)
+	Ready Queue: (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 37 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 7, I/O Burst: 6, I/O Starts in: 1 sec)
+	Ready Queue: (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 38 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 7, I/O Burst: 6, I/O Starts in: 1 sec)
+	Ready Queue: (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 38 sec]
+(Work5, CPU Burst: 6, I/O Burst: 6) - I/O started
+	CPU Allocated Process: No process running
+	Ready Queue: (Work6, CPU Burst: 6, I/O Burst: 0), (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 6)
+	I/O Queue: 
+
+<<<Time slice!  39 sec >>>
+[Time: start of 39 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 6, I/O Burst: 9, I/O Starts in: 3 sec)
+	Ready Queue: (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 6)
+	I/O Queue: 
+[Time: end of 39 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 5, I/O Burst: 9, I/O Starts in: 2 sec)
+	Ready Queue: (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 5)
+	I/O Queue: 
+
+[Time: start of 40 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 5, I/O Burst: 9, I/O Starts in: 2 sec)
+	Ready Queue: (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 5)
+	I/O Queue: 
+[Time: end of 40 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 4, I/O Burst: 9, I/O Starts in: 1 sec)
+	Ready Queue: (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 4)
+	I/O Queue: 
+
+[Time: start of 41 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 4, I/O Burst: 9, I/O Starts in: 1 sec)
+	Ready Queue: (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 4)
+	I/O Queue: 
+[Time: end of 41 sec]
+(Work6, CPU Burst: 3, I/O Burst: 9) - I/O started, but different I/O is running already. Enqueue to ioQueue.
+	CPU Allocated Process: No process running
+	Ready Queue: (Work7, CPU Burst: 4, I/O Burst: 0)
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 3)
+	I/O Queue: (Work6, CPU Burst: 3, I/O Burst: 9)
+
+<<<Time slice!  42 sec >>>
+[Time: start of 42 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 4, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 3)
+	I/O Queue: (Work6, CPU Burst: 3, I/O Burst: 9)
+[Time: end of 42 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 3, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 2)
+	I/O Queue: (Work6, CPU Burst: 3, I/O Burst: 9)
+
+[Time: start of 43 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 3, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 2)
+	I/O Queue: (Work6, CPU Burst: 3, I/O Burst: 9)
+[Time: end of 43 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 2, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 1)
+	I/O Queue: (Work6, CPU Burst: 3, I/O Burst: 9)
+
+[Time: start of 44 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 2, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work5, CPU Burst: 6, I/O Burst: 1)
+	I/O Queue: (Work6, CPU Burst: 3, I/O Burst: 9)
+[Time: end of 44 sec]
+(Work5, CPU Burst: 6, I/O Burst: 0) - I/O finished, returned to ready queue
+	CPU Allocated Process: (Work7, CPU Burst: 1, I/O Burst: 0)
+	Ready Queue: (Work5, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 9)
+	I/O Queue: 
+
+[Time: start of 45 sec]
+	CPU Allocated Process: (Work7, CPU Burst: 1, I/O Burst: 0)
+	Ready Queue: (Work5, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 9)
+	I/O Queue: 
+[Time: end of 45 sec]
+(Work7, CPU Burst: 0, I/O Burst: 0) - finished
+	CPU Allocated Process: No process running
+	Ready Queue: (Work5, CPU Burst: 6, I/O Burst: 0)
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 8)
+	I/O Queue: 
+
+<<<Time slice!  46 sec >>>
+[Time: start of 46 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 6, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 8)
+	I/O Queue: 
+[Time: end of 46 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 5, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 7)
+	I/O Queue: 
+
+[Time: start of 47 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 5, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 7)
+	I/O Queue: 
+[Time: end of 47 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 4, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 6)
+	I/O Queue: 
+
+[Time: start of 48 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 4, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 6)
+	I/O Queue: 
+[Time: end of 48 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 3, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 5)
+	I/O Queue: 
+
+[Time: start of 49 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 3, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 5)
+	I/O Queue: 
+[Time: end of 49 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 2, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 4)
+	I/O Queue: 
+
+[Time: start of 50 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 2, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 4)
+	I/O Queue: 
+[Time: end of 50 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 1, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 3)
+	I/O Queue: 
+
+<<<Time slice!  51 sec >>>
+[Time: start of 51 sec]
+	CPU Allocated Process: (Work5, CPU Burst: 1, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 3)
+	I/O Queue: 
+[Time: end of 51 sec]
+(Work5, CPU Burst: 0, I/O Burst: 0) - finished
+	CPU Allocated Process: No process running
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 2)
+	I/O Queue: 
+
+<<<Time slice!  52 sec >>>
+[Time: start of 52 sec]
+	CPU Allocated Process: No process running
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 2)
+	I/O Queue: 
+[Time: end of 52 sec]
+	CPU Allocated Process: No process running
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 1)
+	I/O Queue: 
+
+[Time: start of 53 sec]
+	CPU Allocated Process: No process running
+	Ready Queue: 
+	I/O Running: (Work6, CPU Burst: 3, I/O Burst: 1)
+	I/O Queue: 
+[Time: end of 53 sec]
+(Work6, CPU Burst: 3, I/O Burst: 0) - I/O finished, returned to ready queue
+	CPU Allocated Process: No process running
+	Ready Queue: (Work6, CPU Burst: 3, I/O Burst: 0)
+	I/O Running: No process running
+	I/O Queue: 
+
+<<<Time slice!  54 sec >>>
+[Time: start of 54 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 3, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 54 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 2, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 55 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 2, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 55 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 1, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: start of 56 sec]
+	CPU Allocated Process: (Work6, CPU Burst: 1, I/O Burst: 0)
+	Ready Queue: 
+	I/O Running: No process running
+	I/O Queue: 
+[Time: end of 56 sec]
+(Work6, CPU Burst: 0, I/O Burst: 0) - finished
+	CPU Allocated Process: No process running
+	Ready Queue: 
+	I/O Running: No process running
+	I/O Queue: 
+
+[Time: 57 sec] - end of simulation
+Work0 response time: 0 sec, turnaround time: 36 sec
+Work1 response time: 5 sec, turnaround time: 6 sec
+Work2 response time: 6 sec, turnaround time: 8 sec
+Work3 response time: 8 sec, turnaround time: 10 sec
+Work4 response time: 10 sec, turnaround time: 14 sec
+Work5 response time: 14 sec, turnaround time: 52 sec
+Work6 response time: 15 sec, turnaround time: 57 sec
+Work7 response time: 18 sec, turnaround time: 46 sec
+Work8 response time: 22 sec, turnaround time: 27 sec
+Work9 response time: 27 sec, turnaround time: 32 sec
+Average response time: 12.500000 sec, average turnaround time: 28.800000 sec
+Throughput: 0.034722 jobs/sec
+CPU utilization: 96.491228%
+I/O utilization: 56.140351%

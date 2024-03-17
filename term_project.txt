@@ -1,0 +1,36 @@
+Please implement a simulator for RR scheduling, including the ready queue and I/O queue. The parent process acts as the scheduler.
+
+Basic explanations and requirements
+- Parent process :
+• Parent process creates 10 child processes.
+• Assume your own scheduling parameters: e.g., time quantum, and timer tick interval.
+• Parent process periodically receives ALARM signal by registering timer event. Students may want to refer to setitimer system call. The ALARM signal serves as periodic timer interrupt (or time tick).
+• Parent process manages the ready queue and I/O queue.
+    o Elements of the queue should be pointer variables to structures holding information about each child process (e.g. pid, remaining CPU burst time) (think of PCB, though simpler).
+• The parent process performs scheduling of its child processes: The parent process accounts for the remaining time quantum of all the child processes.
+• The parent process gives time slice to the child process by sending IPC message through msgq.
+    o Please note that there is msgget, msgsnd, msgrcv system calls, and IPC_NOWAIT flag.
+• Decreases the remaining i/o burst time of processes in the i/o queue with every time tick.
+• Total running time should be more than 1 minute.
+
+-Child process :
+• A child process simulates the execution of a user process.
+• Workload consists of infinite loop of dynamic CPU-burst and I/O-burst.
+• CPU burst is randomly determined at the time of child process creation.
+• When a child process receives a start IPC message from the parent process, it is considered to be running.
+• The CPU burst time decreases as much as the execution time.
+• About I/O operation:
+    o At each dispatch, the 'creation' of I/O burst is determined randomly by a certain probability.
+    o If an i/o burst is created,
+        § The 'start time of I/O' is also randomly determined, as the 'I/O duration'.
+        § The 'start time of I/O' come before the end of the time quantum while the process is in running state.
+        § When 'start time of I/O' occurs, the next child process in the ready queue executes.
+        § Information about the i/o is sent to the parent process via IPC.
+    o Please refer to (option 0), (option 1), (option 2), (option 3) in section 3.
+• If the CPU burst time of a child process ends before the time quantum, an IPC message is sent to the parent.
+
+- Logging:
+• The following contents are output for every time tick t:
+• (1) pid of the child process in running state, (2) list of processes in the ready queue and i/o queue, (3) remaining cpu burst time and i/o burst time for each process.
+• Print out all the operations to the following file: schedule_dump.txt.
+• Students would like to refer to the following C-library function and system call: sprintf, open, write, close.

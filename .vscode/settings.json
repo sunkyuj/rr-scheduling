@@ -1,0 +1,22 @@
+{
+  "files.associations": {
+    "*.yaml": "asl-yaml",
+    "*.cpp": "cpp",
+    "stdlib.h": "c",
+    "unistd.h": "c",
+    "ostream": "cpp",
+    "queue": "cpp",
+    "__hash_table": "cpp",
+    "__split_buffer": "cpp",
+    "array": "cpp",
+    "bitset": "cpp",
+    "deque": "cpp",
+    "initializer_list": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "unordered_map": "cpp",
+    "vector": "cpp",
+    "iostream": "cpp",
+    "fstream": "cpp"
+  }
+}
